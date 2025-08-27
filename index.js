@@ -30,7 +30,7 @@ const {
 
 const CONFIG = {
     // Bot Token (get from Discord Developer Portal)
-    TOKEN: "MTQxMDMwODQyNzE4NzQ4Njg3NA.GiH0d3.oNOtA9ay0TR__Trlm9DUgT59VTWmiDkNpSV62U",
+    TOKEN: "MTQxMDMwODQyNzE4NzQ4Njg3NA.G8Jl5k.PBoAJ4n-ugaEYhbX7AHUmhp-7LXGXrjcrt95Sc",
 
     // Your Application ID (from Discord Developer Portal)
     APPLICATION_ID: "1410308427187486874",
