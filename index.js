@@ -1,3 +1,18 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+    res.send("I'm alive!");
+});
+
+function keepAlive() {
+    app.listen(3000, () => {
+        console.log("Server is ready! 🚀");
+    });
+}
+
+module.exports = keepAlive;
+
 const {
     Client,
     GatewayIntentBits,
@@ -15,7 +30,7 @@ const {
 
 const CONFIG = {
     // Bot Token (get from Discord Developer Portal)
-    TOKEN: "MTQxMDMwODQyNzE4NzQ4Njg3NA.GpGNvF.eqxmUhHCN4nW61D8hlW5mDiuluOywa0BlkloiU",
+    TOKEN: "MTQxMDMwODQyNzE4NzQ4Njg3NA.GiH0d3.oNOtA9ay0TR__Trlm9DUgT59VTWmiDkNpSV62U",
 
     // Your Application ID (from Discord Developer Portal)
     APPLICATION_ID: "1410308427187486874",
